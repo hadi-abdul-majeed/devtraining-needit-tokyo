@@ -12,7 +12,7 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-   alert("Thank you for laoding this NeedIt form. When you close this alert you will be able to interact with the form");
+  // alert("Thank you for laoding this NeedIt form. When you close this alert you will be able to interact with the form");
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>

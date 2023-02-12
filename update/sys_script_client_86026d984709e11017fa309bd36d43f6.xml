@@ -22,7 +22,7 @@ var getEmailAddr = new GlideAjax('GetEmailAddress');
 //Specify the script include method that you want to call
 getEmailAddr.addParam('sysparam_name', 'getEmail');
 //pass the variable used in script include and its value
-getEmailAddr('sysparam_userID', g_form.getValue('u_requested_for_email'));
+getEmailAddr.addParam('sysparam_userID', g_form.getValue('u_requested_for_email'));
 getEmailAddr.getXML(populateEmailField);
 
 function populateEmailField(response) {

@@ -12,7 +12,7 @@
         <order/>
         <script><![CDATA[function onSubmit() {
    //Type appropriate comment here, and begin script below
-   alert("Thank you submitting this NeedIt form.");
+  // alert("Thank you submitting this NeedIt form.");
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
